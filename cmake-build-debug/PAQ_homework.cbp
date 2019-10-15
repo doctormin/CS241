@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PAQ_homework"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PAQ_homework">
+				<Option output="C:/Users/18123/CLionProjects/CS241/cmake-build-debug/PAQ_homework.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 PAQ_homework"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PAQ_homework/fast">
+				<Option output="C:/Users/18123/CLionProjects/CS241/cmake-build-debug/PAQ_homework.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 PAQ_homework/fast"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LinearSystem">
+				<Option output="C:/Users/18123/CLionProjects/CS241/cmake-build-debug/LinearSystem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinearSystem"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LinearSystem/fast">
+				<Option output="C:/Users/18123/CLionProjects/CS241/cmake-build-debug/LinearSystem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinearSystem/fast"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bugen">
+				<Option output="C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Bugen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bugen"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bugen/fast">
+				<Option output="C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Bugen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/18123/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bugen/fast"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/18123/CLionProjects/CS241/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/18123/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18123/CLionProjects/CS241/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/18123/CLionProjects/CS241/assignment3/exercise1/BisectionMethod.cpp">
+			<Option target="PAQ_homework"/>
+		</Unit>
+		<Unit filename="C:/Users/18123/CLionProjects/CS241/assignment4">
+			<Option target="LinearSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/18123/CLionProjects/CS241/assignment4/Bugen.cpp">
+			<Option target="Bugen"/>
+		</Unit>
+		<Unit filename="C:/Users/18123/CLionProjects/CS241/assignment4/LinearSystem.cpp">
+			<Option target="PAQ_homework"/>
+			<Option target="LinearSystem"/>
+		</Unit>
+		<Unit filename="C:/Users/18123/CLionProjects/CS241/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

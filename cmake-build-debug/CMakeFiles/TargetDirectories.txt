@@ -1,0 +1,5 @@
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/PAQ_homework.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/LinearSystem.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/Bugen.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/rebuild_cache.dir
