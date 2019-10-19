@@ -56,27 +56,27 @@ include CMakeFiles/LinearSystem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinearSystem.dir/flags.make
 
-CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.obj: CMakeFiles/LinearSystem.dir/flags.make
-CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.obj: ../assignment4/LinearSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.obj"
-	C:\Users\18123\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinearSystem.dir\assignment4\LinearSystem.cpp.obj -c C:\Users\18123\CLionProjects\CS241\assignment4\LinearSystem.cpp
+CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj: CMakeFiles/LinearSystem.dir/flags.make
+CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj: ../Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj"
+	C:\Users\18123\mingw\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinearSystem.dir\Assignment\Assignment4_YiminZhao_CentOS7.6\LinearSystem.cpp.obj -c C:\Users\18123\CLionProjects\CS241\Assignment\Assignment4_YiminZhao_CentOS7.6\LinearSystem.cpp
 
-CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.i"
-	C:\Users\18123\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18123\CLionProjects\CS241\assignment4\LinearSystem.cpp > CMakeFiles\LinearSystem.dir\assignment4\LinearSystem.cpp.i
+CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.i"
+	C:\Users\18123\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18123\CLionProjects\CS241\Assignment\Assignment4_YiminZhao_CentOS7.6\LinearSystem.cpp > CMakeFiles\LinearSystem.dir\Assignment\Assignment4_YiminZhao_CentOS7.6\LinearSystem.cpp.i
 
-CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.s"
-	C:\Users\18123\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18123\CLionProjects\CS241\assignment4\LinearSystem.cpp -o CMakeFiles\LinearSystem.dir\assignment4\LinearSystem.cpp.s
+CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.s"
+	C:\Users\18123\mingw\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18123\CLionProjects\CS241\Assignment\Assignment4_YiminZhao_CentOS7.6\LinearSystem.cpp -o CMakeFiles\LinearSystem.dir\Assignment\Assignment4_YiminZhao_CentOS7.6\LinearSystem.cpp.s
 
 # Object files for target LinearSystem
 LinearSystem_OBJECTS = \
-"CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.obj"
+"CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj"
 
 # External object files for target LinearSystem
 LinearSystem_EXTERNAL_OBJECTS =
 
-LinearSystem.exe: CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.obj
+LinearSystem.exe: CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj
 LinearSystem.exe: CMakeFiles/LinearSystem.dir/build.make
 LinearSystem.exe: CMakeFiles/LinearSystem.dir/linklibs.rsp
 LinearSystem.exe: CMakeFiles/LinearSystem.dir/objects1.rsp

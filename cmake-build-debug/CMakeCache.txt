@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=PAQ_homework
+CMAKE_PROJECT_NAME:STATIC=CS241
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Users/18123/mingw/mingw64/bin/ranlib.exe
@@ -237,6 +237,12 @@ CMAKE_STRIP:FILEPATH=C:/Users/18123/mingw/mingw64/bin/strip.exe
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+CS241_BINARY_DIR:STATIC=C:/Users/18123/CLionProjects/CS241/cmake-build-debug
+
+//Value Computed by CMake
+CS241_SOURCE_DIR:STATIC=C:/Users/18123/CLionProjects/CS241
 
 //Value Computed by CMake
 PAQ_homework_BINARY_DIR:STATIC=C:/Users/18123/CLionProjects/CS241/cmake-build-debug

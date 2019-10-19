@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LinearSystem.dir/assignment4/LinearSystem.cpp.obj"
+  "CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj"
   "LinearSystem.exe"
   "LinearSystem.exe.manifest"
   "LinearSystem.pdb"

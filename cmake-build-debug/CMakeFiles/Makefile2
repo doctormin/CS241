@@ -52,16 +52,22 @@ CMAKE_BINARY_DIR = C:\Users\18123\CLionProjects\CS241\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PAQ_homework.dir/all
+all: CMakeFiles/NewtonInterpolation.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/exercise2_main.dir/all
 all: CMakeFiles/LinearSystem.dir/all
-all: CMakeFiles/Bugen.dir/all
+all: CMakeFiles/BisectionMethod.dir/all
+all: CMakeFiles/NewtonsMethod.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PAQ_homework.dir/clean
+clean: CMakeFiles/NewtonInterpolation.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/exercise2_main.dir/clean
 clean: CMakeFiles/LinearSystem.dir/clean
-clean: CMakeFiles/Bugen.dir/clean
+clean: CMakeFiles/BisectionMethod.dir/clean
+clean: CMakeFiles/NewtonsMethod.dir/clean
 
 .PHONY : clean
 
@@ -71,31 +77,85 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/PAQ_homework.dir
+# Target rules for target CMakeFiles/NewtonInterpolation.dir
 
 # All Build rule for target.
-CMakeFiles/PAQ_homework.dir/all:
-	$(MAKE) -f CMakeFiles\PAQ_homework.dir\build.make CMakeFiles/PAQ_homework.dir/depend
-	$(MAKE) -f CMakeFiles\PAQ_homework.dir\build.make CMakeFiles/PAQ_homework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=5,6,7 "Built target PAQ_homework"
-.PHONY : CMakeFiles/PAQ_homework.dir/all
+CMakeFiles/NewtonInterpolation.dir/all:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/depend
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target NewtonInterpolation"
+.PHONY : CMakeFiles/NewtonInterpolation.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PAQ_homework.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/PAQ_homework.dir/all
+CMakeFiles/NewtonInterpolation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/NewtonInterpolation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PAQ_homework.dir/rule
+.PHONY : CMakeFiles/NewtonInterpolation.dir/rule
 
 # Convenience name for target.
-PAQ_homework: CMakeFiles/PAQ_homework.dir/rule
+NewtonInterpolation: CMakeFiles/NewtonInterpolation.dir/rule
 
-.PHONY : PAQ_homework
+.PHONY : NewtonInterpolation
 
 # clean rule for target.
-CMakeFiles/PAQ_homework.dir/clean:
-	$(MAKE) -f CMakeFiles\PAQ_homework.dir\build.make CMakeFiles/PAQ_homework.dir/clean
-.PHONY : CMakeFiles/PAQ_homework.dir/clean
+CMakeFiles/NewtonInterpolation.dir/clean:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/clean
+.PHONY : CMakeFiles/NewtonInterpolation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise2_main.dir
+
+# All Build rule for target.
+CMakeFiles/exercise2_main.dir/all:
+	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/depend
+	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target exercise2_main"
+.PHONY : CMakeFiles/exercise2_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise2_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exercise2_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exercise2_main.dir/rule
+
+# Convenience name for target.
+exercise2_main: CMakeFiles/exercise2_main.dir/rule
+
+.PHONY : exercise2_main
+
+# clean rule for target.
+CMakeFiles/exercise2_main.dir/clean:
+	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/clean
+.PHONY : CMakeFiles/exercise2_main.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LinearSystem.dir
@@ -125,31 +185,58 @@ CMakeFiles/LinearSystem.dir/clean:
 .PHONY : CMakeFiles/LinearSystem.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Bugen.dir
+# Target rules for target CMakeFiles/BisectionMethod.dir
 
 # All Build rule for target.
-CMakeFiles/Bugen.dir/all:
-	$(MAKE) -f CMakeFiles\Bugen.dir\build.make CMakeFiles/Bugen.dir/depend
-	$(MAKE) -f CMakeFiles\Bugen.dir\build.make CMakeFiles/Bugen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Bugen"
-.PHONY : CMakeFiles/Bugen.dir/all
+CMakeFiles/BisectionMethod.dir/all:
+	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/depend
+	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BisectionMethod"
+.PHONY : CMakeFiles/BisectionMethod.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Bugen.dir/rule: cmake_check_build_system
+CMakeFiles/BisectionMethod.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Bugen.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/BisectionMethod.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Bugen.dir/rule
+.PHONY : CMakeFiles/BisectionMethod.dir/rule
 
 # Convenience name for target.
-Bugen: CMakeFiles/Bugen.dir/rule
+BisectionMethod: CMakeFiles/BisectionMethod.dir/rule
 
-.PHONY : Bugen
+.PHONY : BisectionMethod
 
 # clean rule for target.
-CMakeFiles/Bugen.dir/clean:
-	$(MAKE) -f CMakeFiles\Bugen.dir\build.make CMakeFiles/Bugen.dir/clean
-.PHONY : CMakeFiles/Bugen.dir/clean
+CMakeFiles/BisectionMethod.dir/clean:
+	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/clean
+.PHONY : CMakeFiles/BisectionMethod.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NewtonsMethod.dir
+
+# All Build rule for target.
+CMakeFiles/NewtonsMethod.dir/all:
+	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/depend
+	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target NewtonsMethod"
+.PHONY : CMakeFiles/NewtonsMethod.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NewtonsMethod.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/NewtonsMethod.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18123\CLionProjects\CS241\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/NewtonsMethod.dir/rule
+
+# Convenience name for target.
+NewtonsMethod: CMakeFiles/NewtonsMethod.dir/rule
+
+.PHONY : NewtonsMethod
+
+# clean rule for target.
+CMakeFiles/NewtonsMethod.dir/clean:
+	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/clean
+.PHONY : CMakeFiles/NewtonsMethod.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

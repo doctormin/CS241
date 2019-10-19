@@ -53,7 +53,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/PAQ_homework.dir/DependInfo.cmake"
+  "CMakeFiles/NewtonInterpolation.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/exercise2_main.dir/DependInfo.cmake"
   "CMakeFiles/LinearSystem.dir/DependInfo.cmake"
-  "CMakeFiles/Bugen.dir/DependInfo.cmake"
+  "CMakeFiles/BisectionMethod.dir/DependInfo.cmake"
+  "CMakeFiles/NewtonsMethod.dir/DependInfo.cmake"
   )

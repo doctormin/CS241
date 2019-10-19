@@ -1,5 +1,8 @@
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/PAQ_homework.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/NewtonInterpolation.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/exercise2_main.dir
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/LinearSystem.dir
-C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/Bugen.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/BisectionMethod.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/NewtonsMethod.dir
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/rebuild_cache.dir

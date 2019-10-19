@@ -1,9 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
-project(PAQ_homework)
+project(CS241)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PAQ_homework assignment3/exercise1/BisectionMethod.cpp assignment4/LinearSystem.cpp)
-
-add_executable(LinearSystem assignment4/LinearSystem.cpp assignment4)
-add_executable(Bugen assignment4/Bugen.cpp)
+add_executable(main Assignment/Assignment5_YiminZhao_CentOS7.6/main.cpp Assignment/Assignment5_YiminZhao_CentOS7.6/myArray.h Assignment/Assignment5_YiminZhao_CentOS7.6/myData.h Assignment/Assignment5_YiminZhao_CentOS7.6/mySort.h)
+add_executable(LinearSystem Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp)
+add_executable(NewtonsMethod Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp)
+add_executable(BisectionMethod Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp)
+add_executable(exercise2_main Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp)
+add_executable(NewtonInterpolation Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp)
