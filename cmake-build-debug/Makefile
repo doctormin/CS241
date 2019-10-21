@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named NewtonInterpolation
-
-# Build rule for target.
-NewtonInterpolation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 NewtonInterpolation
-.PHONY : NewtonInterpolation
-
-# fast build rule for target.
-NewtonInterpolation/fast:
-	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/build
-.PHONY : NewtonInterpolation/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -134,6 +121,19 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named NewtonInterpolation
+
+# Build rule for target.
+NewtonInterpolation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 NewtonInterpolation
+.PHONY : NewtonInterpolation
+
+# fast build rule for target.
+NewtonInterpolation/fast:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/build
+.PHONY : NewtonInterpolation/fast
 
 #=============================================================================
 # Target rules for targets named exercise2_main
@@ -186,6 +186,19 @@ NewtonsMethod: cmake_check_build_system
 NewtonsMethod/fast:
 	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/build
 .PHONY : NewtonsMethod/fast
+
+#=============================================================================
+# Target rules for targets named Assignment6_main
+
+# Build rule for target.
+Assignment6_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Assignment6_main
+.PHONY : Assignment6_main
+
+# fast build rule for target.
+Assignment6_main/fast:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/build
+.PHONY : Assignment6_main/fast
 
 Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.obj: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.obj
 
@@ -349,19 +362,47 @@ Assignment/Assignment5_YiminZhao_CentOS7.6/main.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Assignment/Assignment5_YiminZhao_CentOS7.6/main.cpp.s
 .PHONY : Assignment/Assignment5_YiminZhao_CentOS7.6/main.cpp.s
 
+Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.obj: Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj
+
+.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.obj
+
+# target to build an object file
+Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj
+.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj
+
+Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.i: Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i
+
+.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.i
+
+# target to preprocess a source file
+Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i
+.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i
+
+Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.s: Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s
+
+.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.s
+
+# target to generate assembly for a file
+Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s
+.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... NewtonInterpolation
 	@echo ... main
+	@echo ... NewtonInterpolation
+	@echo ... edit_cache
 	@echo ... exercise2_main
 	@echo ... LinearSystem
 	@echo ... BisectionMethod
 	@echo ... NewtonsMethod
+	@echo ... Assignment6_main
 	@echo ... rebuild_cache
 	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.obj
 	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.i
@@ -381,6 +422,9 @@ help:
 	@echo ... Assignment/Assignment5_YiminZhao_CentOS7.6/main.obj
 	@echo ... Assignment/Assignment5_YiminZhao_CentOS7.6/main.i
 	@echo ... Assignment/Assignment5_YiminZhao_CentOS7.6/main.s
+	@echo ... Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.obj
+	@echo ... Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.i
+	@echo ... Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.s
 .PHONY : help
 
 

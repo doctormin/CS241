@@ -9,3 +9,4 @@ add_executable(NewtonsMethod Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-Newt
 add_executable(BisectionMethod Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp)
 add_executable(exercise2_main Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp)
 add_executable(NewtonInterpolation Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp)
+add_executable(Assignment6_main Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp)
