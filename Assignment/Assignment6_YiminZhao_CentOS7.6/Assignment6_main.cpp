@@ -1,14 +1,16 @@
 #include <iostream>
 #include <limits>
 #include <ctime>
+#include "Assignment6_Methods.hpp"
 using namespace std;
 typedef float T; // Change the type here
 
 
 int main()
 {
-    int x, r, round, i_th;
-    
+    int r, round, i_th;
+    T x;
+
     // Q1:
     cout << "--------------------------------- "<< endl;
     cout << " Q1: Test Partition" << endl;
@@ -23,24 +25,24 @@ int main()
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         cout << "Input values: " <<endl;
+        vector<T> A;
         while (cin >> x) {
-            /*
-             *to do : store the inputs
-             */
+            A.push_back(x);
+        }
+        if(A.empty()){
+            cerr << "error input!" << endl;
+            return -1;
         }
 
         cout << "Partition array by random select pivot" << endl;
-        // to do :
-        r = rand()%(n); // n is the size of current array
-        
-        /*
-         * to do ：print r and A[r];
-         */
-        
-        /*
-         * to do : Partition array by A[r]
-         *         print the rearranged array
-         */
+
+        r = rand()%(A.size());
+        cout << "r = " << r << endl;
+        cout << "A[r] = " << A[r] << endl;
+        partition(A, r);
+        for(auto iter : A)
+            cout << iter << ' ';
+        cout << endl;
     }
 
     // Q2:
@@ -60,18 +62,22 @@ int main()
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         cout << "Input values: " <<endl;
+        vector<T> B;
         while (cin >> x) {
-            /*
-             *to do : store the inputs
-             */
+            B.push_back(x);
+        }
+        if(B.empty()){
+            cerr << "error input!" << endl;
+            return -1;
         }
         cout << "Sort Array" << endl;
-        /*
-         *to do : quicksort
-         *        print the sorted array
-         */
+
+        quickSort(B);
+        for(auto iter = B.begin(); iter != B.end(); iter++)
+            cout << *iter << ' ';
+        cout << endl;
     }
-    
+
 
     // Q3:
     // clear the input buffer, no need to change.
@@ -91,20 +97,22 @@ int main()
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         cout << "Input values: " <<endl;
+        vector<T> C;
         while (cin >> x) {
-            /*
-             *to do : store the inputs
-             */
+            C.push_back(x);
+        }
+        if(C.empty()){
+            cerr << "error input!" << endl;
+            return -1;
         }
         // to do:
-        i_th = rand()%(n) + 1; // n is the size of current array
+        i_th = rand()%(C.size()) + 1; // n is the size of current array
         cout << "select i-th smallest element" << endl;
-        /*
-         *to do : random selection
-         *        print i-th and i-th value
-         */
-    }
 
+        T value = Rselect(C, i_th - 1);
+        cout << "i_th = " << i_th << endl;
+        cout << "value = " << value << endl;
+    }
 
     // Q4:
     // clear the input buffer, no need to change.
@@ -124,20 +132,21 @@ int main()
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         cout << "Input values: " <<endl;
+        vector<T> D;
         while (cin >> x) {
-            /*
-             *to do : store the inputs
-             */
+            D.push_back(x);
+        }
+        if(D.empty()){
+            cerr << "error input!" << endl;
+            return -1;
         }
         // to do :
-        i_th = rand()%(n) + 1; // n is the size of current array
+        i_th = rand()%(D.size()) + 1; // n is the size of current array
         
         cout << "select i-th smallest element" << endl;
-        /*
-         *to do : deterministic selection
-         *        print i-th and i-th value
-         */
+        T value = Dselect(D, i_th - 1);
+        cout << "i_th = " << i_th << endl;
+        cout << "value = " << value << endl;
     }
-
     return 0;
 }

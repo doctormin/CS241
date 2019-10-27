@@ -3,10 +3,12 @@ project(CS241)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(main Assignment/Assignment5_YiminZhao_CentOS7.6/main.cpp Assignment/Assignment5_YiminZhao_CentOS7.6/myArray.h Assignment/Assignment5_YiminZhao_CentOS7.6/myData.h Assignment/Assignment5_YiminZhao_CentOS7.6/mySort.h)
+
 add_executable(LinearSystem Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp)
 add_executable(NewtonsMethod Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp)
 add_executable(BisectionMethod Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp)
 add_executable(exercise2_main Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp)
 add_executable(NewtonInterpolation Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp)
-add_executable(Assignment6_main Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp)
+add_executable(Assignment6_main Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_Methods.hpp)
+
+add_executable(bugenmiain Assignment/bugne/bugenmiain.cpp Assignment/bugne/bugen.hpp)
