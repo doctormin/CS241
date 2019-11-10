@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18123/CLionProjects/CS241/Assignment/Assignment8/Assignment8_main.cpp
+iostream
+-
+string
+-
+vector
+-
+

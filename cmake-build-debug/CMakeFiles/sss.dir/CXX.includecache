@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18123/CLionProjects/CS241/Assignment/Assignment6_YiminZhao_CentOS7.6/sss.cpp
+iostream
+-
+cmath
+-
+
