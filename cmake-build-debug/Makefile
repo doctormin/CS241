@@ -175,6 +175,19 @@ NewtonInterpolation/fast:
 .PHONY : NewtonInterpolation/fast
 
 #=============================================================================
+# Target rules for targets named Assignment8_main
+
+# Build rule for target.
+Assignment8_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Assignment8_main
+.PHONY : Assignment8_main
+
+# fast build rule for target.
+Assignment8_main/fast:
+	$(MAKE) -f CMakeFiles\Assignment8_main.dir\build.make CMakeFiles/Assignment8_main.dir/build
+.PHONY : Assignment8_main/fast
+
+#=============================================================================
 # Target rules for targets named Assignment6_main
 
 # Build rule for target.
@@ -187,207 +200,194 @@ Assignment6_main/fast:
 	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/build
 .PHONY : Assignment6_main/fast
 
-#=============================================================================
-# Target rules for targets named bugenmiain
+Assignment/Assignment2/exercise2/NewtonInterpolation.obj: Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.obj
 
-# Build rule for target.
-bugenmiain: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 bugenmiain
-.PHONY : bugenmiain
-
-# fast build rule for target.
-bugenmiain/fast:
-	$(MAKE) -f CMakeFiles\bugenmiain.dir\build.make CMakeFiles/bugenmiain.dir/build
-.PHONY : bugenmiain/fast
-
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.obj: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.obj
-
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.obj
+.PHONY : Assignment/Assignment2/exercise2/NewtonInterpolation.obj
 
 # target to build an object file
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.obj:
-	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.obj
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.obj
+Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.obj:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.obj
+.PHONY : Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.obj
 
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.i: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.i
+Assignment/Assignment2/exercise2/NewtonInterpolation.i: Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.i
 
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.i
+.PHONY : Assignment/Assignment2/exercise2/NewtonInterpolation.i
 
 # target to preprocess a source file
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.i:
-	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.i
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.i
+Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.i:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.i
+.PHONY : Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.i
 
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.s: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.s
+Assignment/Assignment2/exercise2/NewtonInterpolation.s: Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.s
 
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.s
+.PHONY : Assignment/Assignment2/exercise2/NewtonInterpolation.s
 
 # target to generate assembly for a file
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.s:
-	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.s
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.cpp.s
+Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.s:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.s
+.PHONY : Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.s
 
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.obj: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.obj
+Assignment/Assignment2/exercise2/exercise2_main.obj: Assignment/Assignment2/exercise2/exercise2_main.cpp.obj
 
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.obj
+.PHONY : Assignment/Assignment2/exercise2/exercise2_main.obj
 
 # target to build an object file
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.obj:
-	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.obj
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.obj
+Assignment/Assignment2/exercise2/exercise2_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/Assignment/Assignment2/exercise2/exercise2_main.cpp.obj
+.PHONY : Assignment/Assignment2/exercise2/exercise2_main.cpp.obj
 
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.i: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.i
+Assignment/Assignment2/exercise2/exercise2_main.i: Assignment/Assignment2/exercise2/exercise2_main.cpp.i
 
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.i
+.PHONY : Assignment/Assignment2/exercise2/exercise2_main.i
 
 # target to preprocess a source file
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.i:
-	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.i
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.i
+Assignment/Assignment2/exercise2/exercise2_main.cpp.i:
+	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/Assignment/Assignment2/exercise2/exercise2_main.cpp.i
+.PHONY : Assignment/Assignment2/exercise2/exercise2_main.cpp.i
 
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.s: Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.s
+Assignment/Assignment2/exercise2/exercise2_main.s: Assignment/Assignment2/exercise2/exercise2_main.cpp.s
 
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.s
+.PHONY : Assignment/Assignment2/exercise2/exercise2_main.s
 
 # target to generate assembly for a file
-Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.s:
-	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.s
-.PHONY : Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.cpp.s
+Assignment/Assignment2/exercise2/exercise2_main.cpp.s:
+	$(MAKE) -f CMakeFiles\exercise2_main.dir\build.make CMakeFiles/exercise2_main.dir/Assignment/Assignment2/exercise2/exercise2_main.cpp.s
+.PHONY : Assignment/Assignment2/exercise2/exercise2_main.cpp.s
 
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.obj: Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.obj
+Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.obj: Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.obj
 
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.obj
+.PHONY : Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.obj
 
 # target to build an object file
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.obj:
-	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.obj
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.obj
+Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.obj:
+	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.obj
+.PHONY : Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.obj
 
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.i: Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.i
+Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.i: Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.i
 
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.i
+.PHONY : Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.i
 
 # target to preprocess a source file
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.i:
-	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.i
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.i
+Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.i:
+	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.i
+.PHONY : Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.i
 
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.s: Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.s
+Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.s: Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.s
 
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.s
+.PHONY : Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.s
 
 # target to generate assembly for a file
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.s:
-	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.s
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.cpp.s
+Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.s:
+	$(MAKE) -f CMakeFiles\BisectionMethod.dir\build.make CMakeFiles/BisectionMethod.dir/Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.s
+.PHONY : Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.cpp.s
 
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.obj: Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.obj
+Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.obj: Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.obj
 
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.obj
+.PHONY : Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.obj
 
 # target to build an object file
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.obj:
-	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.obj
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.obj
+Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.obj:
+	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.obj
+.PHONY : Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.obj
 
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.i: Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.i
+Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.i: Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.i
 
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.i
+.PHONY : Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.i
 
 # target to preprocess a source file
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.i:
-	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.i
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.i
+Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.i:
+	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.i
+.PHONY : Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.i
 
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.s: Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.s
+Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.s: Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.s
 
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.s
+.PHONY : Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.s
 
 # target to generate assembly for a file
-Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.s:
-	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.s
-.PHONY : Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.cpp.s
+Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.s:
+	$(MAKE) -f CMakeFiles\NewtonsMethod.dir\build.make CMakeFiles/NewtonsMethod.dir/Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.s
+.PHONY : Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.cpp.s
 
-Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.obj: Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj
+Assignment/Assignment4/LinearSystem.obj: Assignment/Assignment4/LinearSystem.cpp.obj
 
-.PHONY : Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.obj
+.PHONY : Assignment/Assignment4/LinearSystem.obj
 
 # target to build an object file
-Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj:
-	$(MAKE) -f CMakeFiles\LinearSystem.dir\build.make CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj
-.PHONY : Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.obj
+Assignment/Assignment4/LinearSystem.cpp.obj:
+	$(MAKE) -f CMakeFiles\LinearSystem.dir\build.make CMakeFiles/LinearSystem.dir/Assignment/Assignment4/LinearSystem.cpp.obj
+.PHONY : Assignment/Assignment4/LinearSystem.cpp.obj
 
-Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.i: Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.i
+Assignment/Assignment4/LinearSystem.i: Assignment/Assignment4/LinearSystem.cpp.i
 
-.PHONY : Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.i
+.PHONY : Assignment/Assignment4/LinearSystem.i
 
 # target to preprocess a source file
-Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.i:
-	$(MAKE) -f CMakeFiles\LinearSystem.dir\build.make CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.i
-.PHONY : Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.i
+Assignment/Assignment4/LinearSystem.cpp.i:
+	$(MAKE) -f CMakeFiles\LinearSystem.dir\build.make CMakeFiles/LinearSystem.dir/Assignment/Assignment4/LinearSystem.cpp.i
+.PHONY : Assignment/Assignment4/LinearSystem.cpp.i
 
-Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.s: Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.s
+Assignment/Assignment4/LinearSystem.s: Assignment/Assignment4/LinearSystem.cpp.s
 
-.PHONY : Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.s
+.PHONY : Assignment/Assignment4/LinearSystem.s
 
 # target to generate assembly for a file
-Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.s:
-	$(MAKE) -f CMakeFiles\LinearSystem.dir\build.make CMakeFiles/LinearSystem.dir/Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.s
-.PHONY : Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.cpp.s
+Assignment/Assignment4/LinearSystem.cpp.s:
+	$(MAKE) -f CMakeFiles\LinearSystem.dir\build.make CMakeFiles/LinearSystem.dir/Assignment/Assignment4/LinearSystem.cpp.s
+.PHONY : Assignment/Assignment4/LinearSystem.cpp.s
 
-Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.obj: Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj
+Assignment/Assignment6/Assignment6_main.obj: Assignment/Assignment6/Assignment6_main.cpp.obj
 
-.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.obj
+.PHONY : Assignment/Assignment6/Assignment6_main.obj
 
 # target to build an object file
-Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj
-.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.obj
+Assignment/Assignment6/Assignment6_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6/Assignment6_main.cpp.obj
+.PHONY : Assignment/Assignment6/Assignment6_main.cpp.obj
 
-Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.i: Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i
+Assignment/Assignment6/Assignment6_main.i: Assignment/Assignment6/Assignment6_main.cpp.i
 
-.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.i
+.PHONY : Assignment/Assignment6/Assignment6_main.i
 
 # target to preprocess a source file
-Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i:
-	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i
-.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.i
+Assignment/Assignment6/Assignment6_main.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6/Assignment6_main.cpp.i
+.PHONY : Assignment/Assignment6/Assignment6_main.cpp.i
 
-Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.s: Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s
+Assignment/Assignment6/Assignment6_main.s: Assignment/Assignment6/Assignment6_main.cpp.s
 
-.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.s
+.PHONY : Assignment/Assignment6/Assignment6_main.s
 
 # target to generate assembly for a file
-Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s:
-	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s
-.PHONY : Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.cpp.s
+Assignment/Assignment6/Assignment6_main.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/Assignment/Assignment6/Assignment6_main.cpp.s
+.PHONY : Assignment/Assignment6/Assignment6_main.cpp.s
 
-Assignment/bugne/bugenmiain.obj: Assignment/bugne/bugenmiain.cpp.obj
+Assignment/Assignment8/Assignment8_main.obj: Assignment/Assignment8/Assignment8_main.cpp.obj
 
-.PHONY : Assignment/bugne/bugenmiain.obj
+.PHONY : Assignment/Assignment8/Assignment8_main.obj
 
 # target to build an object file
-Assignment/bugne/bugenmiain.cpp.obj:
-	$(MAKE) -f CMakeFiles\bugenmiain.dir\build.make CMakeFiles/bugenmiain.dir/Assignment/bugne/bugenmiain.cpp.obj
-.PHONY : Assignment/bugne/bugenmiain.cpp.obj
+Assignment/Assignment8/Assignment8_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment8_main.dir\build.make CMakeFiles/Assignment8_main.dir/Assignment/Assignment8/Assignment8_main.cpp.obj
+.PHONY : Assignment/Assignment8/Assignment8_main.cpp.obj
 
-Assignment/bugne/bugenmiain.i: Assignment/bugne/bugenmiain.cpp.i
+Assignment/Assignment8/Assignment8_main.i: Assignment/Assignment8/Assignment8_main.cpp.i
 
-.PHONY : Assignment/bugne/bugenmiain.i
+.PHONY : Assignment/Assignment8/Assignment8_main.i
 
 # target to preprocess a source file
-Assignment/bugne/bugenmiain.cpp.i:
-	$(MAKE) -f CMakeFiles\bugenmiain.dir\build.make CMakeFiles/bugenmiain.dir/Assignment/bugne/bugenmiain.cpp.i
-.PHONY : Assignment/bugne/bugenmiain.cpp.i
+Assignment/Assignment8/Assignment8_main.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment8_main.dir\build.make CMakeFiles/Assignment8_main.dir/Assignment/Assignment8/Assignment8_main.cpp.i
+.PHONY : Assignment/Assignment8/Assignment8_main.cpp.i
 
-Assignment/bugne/bugenmiain.s: Assignment/bugne/bugenmiain.cpp.s
+Assignment/Assignment8/Assignment8_main.s: Assignment/Assignment8/Assignment8_main.cpp.s
 
-.PHONY : Assignment/bugne/bugenmiain.s
+.PHONY : Assignment/Assignment8/Assignment8_main.s
 
 # target to generate assembly for a file
-Assignment/bugne/bugenmiain.cpp.s:
-	$(MAKE) -f CMakeFiles\bugenmiain.dir\build.make CMakeFiles/bugenmiain.dir/Assignment/bugne/bugenmiain.cpp.s
-.PHONY : Assignment/bugne/bugenmiain.cpp.s
+Assignment/Assignment8/Assignment8_main.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment8_main.dir\build.make CMakeFiles/Assignment8_main.dir/Assignment/Assignment8/Assignment8_main.cpp.s
+.PHONY : Assignment/Assignment8/Assignment8_main.cpp.s
 
 # Help Target
 help:
@@ -401,30 +401,30 @@ help:
 	@echo ... NewtonsMethod
 	@echo ... NewtonInterpolation
 	@echo ... edit_cache
+	@echo ... Assignment8_main
 	@echo ... Assignment6_main
-	@echo ... bugenmiain
 	@echo ... rebuild_cache
-	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.obj
-	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.i
-	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/NewtonInterpolation.s
-	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.obj
-	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.i
-	@echo ... Assignment/Assignment2_YiminZhao_CentOS7.6/exercise2/exercise2_main.s
-	@echo ... Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.obj
-	@echo ... Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.i
-	@echo ... Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-BisectionMethod/BisectionMethod.s
-	@echo ... Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.obj
-	@echo ... Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.i
-	@echo ... Assignment/Assignment3_YiminZhao_CentOS7.6/HW3-NewtonsMethod/NewtonsMethod.s
-	@echo ... Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.obj
-	@echo ... Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.i
-	@echo ... Assignment/Assignment4_YiminZhao_CentOS7.6/LinearSystem.s
-	@echo ... Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.obj
-	@echo ... Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.i
-	@echo ... Assignment/Assignment6_YiminZhao_CentOS7.6/Assignment6_main.s
-	@echo ... Assignment/bugne/bugenmiain.obj
-	@echo ... Assignment/bugne/bugenmiain.i
-	@echo ... Assignment/bugne/bugenmiain.s
+	@echo ... Assignment/Assignment2/exercise2/NewtonInterpolation.obj
+	@echo ... Assignment/Assignment2/exercise2/NewtonInterpolation.i
+	@echo ... Assignment/Assignment2/exercise2/NewtonInterpolation.s
+	@echo ... Assignment/Assignment2/exercise2/exercise2_main.obj
+	@echo ... Assignment/Assignment2/exercise2/exercise2_main.i
+	@echo ... Assignment/Assignment2/exercise2/exercise2_main.s
+	@echo ... Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.obj
+	@echo ... Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.i
+	@echo ... Assignment/Assignment3/HW3-BisectionMethod/BisectionMethod.s
+	@echo ... Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.obj
+	@echo ... Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.i
+	@echo ... Assignment/Assignment3/HW3-NewtonsMethod/NewtonsMethod.s
+	@echo ... Assignment/Assignment4/LinearSystem.obj
+	@echo ... Assignment/Assignment4/LinearSystem.i
+	@echo ... Assignment/Assignment4/LinearSystem.s
+	@echo ... Assignment/Assignment6/Assignment6_main.obj
+	@echo ... Assignment/Assignment6/Assignment6_main.i
+	@echo ... Assignment/Assignment6/Assignment6_main.s
+	@echo ... Assignment/Assignment8/Assignment8_main.obj
+	@echo ... Assignment/Assignment8/Assignment8_main.i
+	@echo ... Assignment/Assignment8/Assignment8_main.s
 .PHONY : help
 
 

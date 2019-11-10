@@ -4,6 +4,6 @@ C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/BisectionMethod.
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/NewtonsMethod.dir
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/NewtonInterpolation.dir
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/Assignment8_main.dir
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/Assignment6_main.dir
-C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/bugenmiain.dir
 C:/Users/18123/CLionProjects/CS241/cmake-build-debug/CMakeFiles/rebuild_cache.dir
