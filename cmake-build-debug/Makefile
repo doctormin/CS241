@@ -162,19 +162,6 @@ NewtonsMethod/fast:
 .PHONY : NewtonsMethod/fast
 
 #=============================================================================
-# Target rules for targets named NewtonInterpolation
-
-# Build rule for target.
-NewtonInterpolation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 NewtonInterpolation
-.PHONY : NewtonInterpolation
-
-# fast build rule for target.
-NewtonInterpolation/fast:
-	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/build
-.PHONY : NewtonInterpolation/fast
-
-#=============================================================================
 # Target rules for targets named Assignment8_main
 
 # Build rule for target.
@@ -188,6 +175,19 @@ Assignment8_main/fast:
 .PHONY : Assignment8_main/fast
 
 #=============================================================================
+# Target rules for targets named NewtonInterpolation
+
+# Build rule for target.
+NewtonInterpolation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 NewtonInterpolation
+.PHONY : NewtonInterpolation
+
+# fast build rule for target.
+NewtonInterpolation/fast:
+	$(MAKE) -f CMakeFiles\NewtonInterpolation.dir\build.make CMakeFiles/NewtonInterpolation.dir/build
+.PHONY : NewtonInterpolation/fast
+
+#=============================================================================
 # Target rules for targets named Assignment6_main
 
 # Build rule for target.
@@ -199,6 +199,32 @@ Assignment6_main: cmake_check_build_system
 Assignment6_main/fast:
 	$(MAKE) -f CMakeFiles\Assignment6_main.dir\build.make CMakeFiles/Assignment6_main.dir/build
 .PHONY : Assignment6_main/fast
+
+#=============================================================================
+# Target rules for targets named Assignment9_exercise1_main
+
+# Build rule for target.
+Assignment9_exercise1_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Assignment9_exercise1_main
+.PHONY : Assignment9_exercise1_main
+
+# fast build rule for target.
+Assignment9_exercise1_main/fast:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise1_main.dir\build.make CMakeFiles/Assignment9_exercise1_main.dir/build
+.PHONY : Assignment9_exercise1_main/fast
+
+#=============================================================================
+# Target rules for targets named Assignment9_exercise2_main
+
+# Build rule for target.
+Assignment9_exercise2_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Assignment9_exercise2_main
+.PHONY : Assignment9_exercise2_main
+
+# fast build rule for target.
+Assignment9_exercise2_main/fast:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise2_main.dir\build.make CMakeFiles/Assignment9_exercise2_main.dir/build
+.PHONY : Assignment9_exercise2_main/fast
 
 Assignment/Assignment2/exercise2/NewtonInterpolation.obj: Assignment/Assignment2/exercise2/NewtonInterpolation.cpp.obj
 
@@ -389,6 +415,60 @@ Assignment/Assignment8/Assignment8_main.cpp.s:
 	$(MAKE) -f CMakeFiles\Assignment8_main.dir\build.make CMakeFiles/Assignment8_main.dir/Assignment/Assignment8/Assignment8_main.cpp.s
 .PHONY : Assignment/Assignment8/Assignment8_main.cpp.s
 
+Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.obj: Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.obj
+
+.PHONY : Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.obj
+
+# target to build an object file
+Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise1_main.dir\build.make CMakeFiles/Assignment9_exercise1_main.dir/Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.obj
+.PHONY : Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.obj
+
+Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.i: Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.i
+
+.PHONY : Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.i
+
+# target to preprocess a source file
+Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise1_main.dir\build.make CMakeFiles/Assignment9_exercise1_main.dir/Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.i
+.PHONY : Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.i
+
+Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.s: Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.s
+
+.PHONY : Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.s
+
+# target to generate assembly for a file
+Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise1_main.dir\build.make CMakeFiles/Assignment9_exercise1_main.dir/Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.s
+.PHONY : Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp.s
+
+Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.obj: Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.obj
+
+.PHONY : Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.obj
+
+# target to build an object file
+Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise2_main.dir\build.make CMakeFiles/Assignment9_exercise2_main.dir/Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.obj
+.PHONY : Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.obj
+
+Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.i: Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.i
+
+.PHONY : Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.i
+
+# target to preprocess a source file
+Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise2_main.dir\build.make CMakeFiles/Assignment9_exercise2_main.dir/Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.i
+.PHONY : Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.i
+
+Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.s: Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.s
+
+.PHONY : Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.s
+
+# target to generate assembly for a file
+Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment9_exercise2_main.dir\build.make CMakeFiles/Assignment9_exercise2_main.dir/Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.s
+.PHONY : Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -399,10 +479,12 @@ help:
 	@echo ... LinearSystem
 	@echo ... BisectionMethod
 	@echo ... NewtonsMethod
-	@echo ... NewtonInterpolation
-	@echo ... edit_cache
 	@echo ... Assignment8_main
+	@echo ... edit_cache
+	@echo ... NewtonInterpolation
 	@echo ... Assignment6_main
+	@echo ... Assignment9_exercise1_main
+	@echo ... Assignment9_exercise2_main
 	@echo ... rebuild_cache
 	@echo ... Assignment/Assignment2/exercise2/NewtonInterpolation.obj
 	@echo ... Assignment/Assignment2/exercise2/NewtonInterpolation.i
@@ -425,6 +507,12 @@ help:
 	@echo ... Assignment/Assignment8/Assignment8_main.obj
 	@echo ... Assignment/Assignment8/Assignment8_main.i
 	@echo ... Assignment/Assignment8/Assignment8_main.s
+	@echo ... Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.obj
+	@echo ... Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.i
+	@echo ... Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.s
+	@echo ... Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.obj
+	@echo ... Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.i
+	@echo ... Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.s
 .PHONY : help
 
 

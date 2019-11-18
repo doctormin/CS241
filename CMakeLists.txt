@@ -14,3 +14,7 @@ add_executable(Assignment6_main Assignment/Assignment6/Assignment6_main.cpp)
 add_executable(Assignment8_main Assignment/Assignment8/Assignment8_main.cpp)
 
 add_executable(exercise2_main Assignment/Assignment2/exercise2/exercise2_main.cpp)
+add_executable(Assignment9_exercise1_main Assignment/Assignment9/Exercise1/Assignment9_exercise1_main.cpp)
+
+
+add_executable(Assignment9_exercise2_main Assignment/Assignment9/Exercise2/Assignment9_exercise2_main.cpp)

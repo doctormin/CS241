@@ -57,7 +57,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinearSystem.dir/DependInfo.cmake"
   "CMakeFiles/BisectionMethod.dir/DependInfo.cmake"
   "CMakeFiles/NewtonsMethod.dir/DependInfo.cmake"
-  "CMakeFiles/NewtonInterpolation.dir/DependInfo.cmake"
   "CMakeFiles/Assignment8_main.dir/DependInfo.cmake"
+  "CMakeFiles/NewtonInterpolation.dir/DependInfo.cmake"
   "CMakeFiles/Assignment6_main.dir/DependInfo.cmake"
+  "CMakeFiles/Assignment9_exercise1_main.dir/DependInfo.cmake"
+  "CMakeFiles/Assignment9_exercise2_main.dir/DependInfo.cmake"
   )
