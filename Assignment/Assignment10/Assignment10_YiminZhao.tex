@@ -1,0 +1,150 @@
+\documentclass[18pt, A4]{article}
+\usepackage{pdfpages}
+\title{---Assignment10---}
+\author{Yimin Zhao \\ \\518030910188}
+\date{\today}
+\usepackage{graphicx}
+
+\begin{document}
+\maketitle
+\pagebreak
+    \section*{Question 1}
+    \subsection*{(1) What are the differences between Machine Learning (ML) and Deep Learning (DL)(0.5')?} 
+    Answer: 
+    \begin{enumerate}
+
+        \item  ML algorithms almost always require structured data, whereas DL networks rely on layers of the ANN (artificial neural networks).
+
+        \item DL requires much more data than a traditional ML algorithm because neural networks need millions of data to identify edges.
+    \end{enumerate}
+    \subsection*{(2) Why Deep Learning is useful(0.5')?}
+    Answer:
+    \begin{enumerate}
+        \item Manually designed features which are needed in ML are often over-specified, incomplete and take a long time to design and validate.
+
+        \item Learned Features which are easy to adapt, fast to learn.
+        \item DL provides a very flexible, almost universal, learnable framework for representing world, visual and linguistic information.
+        \item DL can learn both unsupervised ad supervised.
+        \item Effective end-to-end joint system learning.
+        \item Utilize large amounts of training data.
+    \end{enumerate}
+    \section*{Question 2}
+    \subsection*{(a)}
+    Answer:
+    $$ output = \sigma (w_1x_1 + w_2x_2 + w_3x_3 +b) $$
+
+    \subsection*{(b)}
+    Answer:
+          $$z_1 = 1 \times 1 + (-1) \times 2 + 2 = 1 $$
+          $$z_2 = 1 \times 2 + (-1) \times (-1) -4 = -1$$ 
+          $$\sigma (z_1) = \frac{1}{1+e}= 0.73$$  
+          $$\sigma (z_2) = \frac{1}{1+e^{-1}} = 0.27$$
+          $$y = \sigma(1\times \sigma(z_1) + 1\times \sigma(z_2) + 1) = \frac{1}{1+e^{-2}} = 0.88 $$      
+    \section*{Question 3}
+    \subsection*{(a) training:}
+    Answer:
+        $$z_1 = 1\times(-1) + 2\times 0 + 1\times 0 = -1$$
+        $$z_2 = 1\times 2 + 2\times1 + 1\times 0 = 4$$
+        $$z_4 = 1\times 0 + 2\times 0 + 1\times 1 = 1$$
+        $$\sigma(z_1) = 0$$
+        $$\sigma(z_2) = 4$$
+        $$\sigma(z_4) = 1$$
+        $$t_1 = \sigma(z_1) \times (-1) + \sigma(z_2) \times 2 + \sigma(z_4) \times  (-4) = 4$$
+        $$t_2 = \sigma(z_1) \times 1 + \sigma(z_2) \times 0 + \sigma(z_4) \times (-2) = -2$$
+        $$y_1 = \sigma(t_1) = 4$$
+        $$y_2 = \sigma(t_2) = 0$$
+    \subsection*{(b) testing:}
+    Answer:
+        $$z_1 = (-1 + 2\times2.5)\times 0.75 = 3$$
+        $$z_2 = (4 + 2\times0)\times 0.75 = 3$$
+        $$z_3 = [(1\times 3 + 2\times (-1) + 2\times0 + 1\times (-2)] \times 0.75 = -0.75$$
+        $$z_4 = (1+2\times0)\times 0.75 = 0.75$$
+        $$\sigma(z_1) = 3$$
+        $$\sigma(z_2) = 3$$
+        $$\sigma(z_3) = 0$$
+        $$\sigma(z_4) = 0.75$$
+        $$t_1 = [\sigma(z_1) \times (-1) + \sigma(z_2) \times 2 + \sigma(z_3)\times 0 +\sigma(z_4) \times  (-4)] \times 0.75 = 0$$
+        $$t_2 = [\sigma(z_1) \times 1 + \sigma(z_2) \times 0 +  \sigma(z_3)\times (-1) +\sigma(z_4) \times (-2)] \times 0.75 = 1.125$$
+        $$y_1 = \sigma(t_1) = 0$$
+        $$y_2 = \sigma(t_2) = 1.125$$
+    
+    \section*{Question 4}
+    \subsection*{(a)}
+    Answer:
+    \\
+    
+    For A:
+        $$z_1 = 2\times 10+2\times0 = 20$$
+        $$z_2 = 2\times0+2\times10 = 20$$
+        $$z_3 = 2\times(-10) + 2\times(-10) +300= 260$$
+        $$\sigma(z_1) = 1$$
+        $$\sigma(z_2) = 1$$
+        $$\sigma(z_3) = 1$$
+        $$t = \sigma(z_1)\times 40 + \sigma(z_2)\times 40 + \sigma(z_3)\times 40 -100 = 20$$
+        $$y = \sigma(t) = 1$$
+    
+    For B:
+        $$z_1 = -5\times 10+30\times0 = -50$$
+        $$z_2 = -5\times0+30\times10 = 300$$
+        $$z_3 = -5\times(-10) + 30\times(-10) +300= 50$$
+        $$\sigma(z_1) = 0$$
+        $$\sigma(z_2) = 1$$
+        $$\sigma(z_3) = 1$$
+        $$t = \sigma(z_1)\times 40 + \sigma(z_2)\times 40 + \sigma(z_3)\times 40 -100 = -20$$
+        $$y = \sigma(t) = 0$$
+        
+    For C:
+        $$z_1 = 20\times 10+20\times0 = 200$$
+        $$z_2 = 20\times0+20\times10 = 200$$
+        $$z_3 = 20\times(-10) + 20\times(-10) +300= -100$$
+        $$\sigma(z_1) = 1$$
+        $$\sigma(z_2) = 1$$
+        $$\sigma(z_3) = 0$$
+        $$t = \sigma(z_1)\times 40 + \sigma(z_2)\times 40 + \sigma(z_3)\times 40 -100 = -20$$
+        $$y = \sigma(t) = 0$$
+
+    \subsection*{(b)}
+    Answer:
+    \\
+
+    We have: (when t is a integer)
+    $$
+        \sigma(t) = 1 \Longleftrightarrow \sigma(t) > 0.999 \Longleftrightarrow t\ge 7 
+    $$
+    $$
+        \sigma(t) = 0 \Longleftrightarrow \sigma(t) < 0.001 \Longleftrightarrow t\le -7   
+    $$
+
+    Since:
+    $$
+         t = \sigma(z_1)\times 40 + \sigma(z_2)\times 40 + \sigma(z_3)\times 40 -100 
+    $$
+    \\
+
+    And according to Figure 7, $\sigma(z_1)$,$\sigma(z_2)$,$\sigma(z_3)$ can either be $0$ or $1$.
+    \\
+
+    So:
+    $$
+        y = \sigma(t) = 1 \Longleftrightarrow \sigma(z_1) = 1, \sigma(z_2) = 1, \sigma(z_3) = 1
+    $$
+    \\
+
+    And: 
+    $$\sigma(z_1) = 1 \Longleftrightarrow z_2 \ge 7 \Longleftrightarrow x_1 \ge 0.7 \Longleftrightarrow x_1 \ge 1$$
+    $$\sigma(z_2) = 1 \Longleftrightarrow z_2 \ge 7 \Longleftrightarrow x_2 \ge 0.7 \Longleftrightarrow x_2 \ge 1$$
+    $$\sigma(z_3) = 1 \Longleftrightarrow z_3 \ge 7 \Longleftrightarrow x_1\times(-10) +x_2\times(-10) + 300 \ge 7 \Longleftrightarrow x_1 + x_2 \le 29$$
+    \\
+    
+    Thus:
+    $$y = 1 \Longleftrightarrow x_1\ge1, x_2\ge1, x_1+x_2\le29$$
+    $$y = 0 \Longleftrightarrow otherwise$$
+    \\
+
+    Therefor the dicision boundary is :
+    $$
+        x_1\ge1, x_2\ge1, x_1+x_2\le29
+    $$
+    
+\end{document}
+ 
