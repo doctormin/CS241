@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\sss.dir/objects.a
-C:\Users\18123\mingw\mingw64\bin\ar.exe cr CMakeFiles\sss.dir/objects.a @CMakeFiles\sss.dir\objects1.rsp
-C:\Users\18123\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\sss.dir/objects.a -Wl,--no-whole-archive  -o sss.exe -Wl,--out-implib,libsss.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sss.dir\linklibs.rsp

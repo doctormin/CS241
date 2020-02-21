@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Assignment6_main.dir/objects.a
-C:\Users\18123\mingw\mingw64\bin\ar.exe cr CMakeFiles\Assignment6_main.dir/objects.a @CMakeFiles\Assignment6_main.dir\objects1.rsp
-C:\Users\18123\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Assignment6_main.dir/objects.a -Wl,--no-whole-archive  -o Assignment6_main.exe -Wl,--out-implib,libAssignment6_main.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Assignment6_main.dir\linklibs.rsp

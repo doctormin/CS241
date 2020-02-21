@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\PlayVectot.dir/objects.a
-C:\Users\18123\mingw\mingw64\bin\ar.exe cr CMakeFiles\PlayVectot.dir/objects.a @CMakeFiles\PlayVectot.dir\objects1.rsp
-C:\Users\18123\mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\PlayVectot.dir/objects.a -Wl,--no-whole-archive  -o PlayVectot.exe -Wl,--out-implib,libPlayVectot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PlayVectot.dir\linklibs.rsp
